@@ -6,4 +6,4 @@ script:
 install:
   - npm i -g firebase-tools
 after_success:
-  - firebase deploy --project fb-test --token $FIREBASE_TOKEN
+  - firebase deploy --project test-proj --token $FIREBASE_TOKEN
